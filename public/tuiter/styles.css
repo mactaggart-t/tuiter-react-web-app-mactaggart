@@ -1,0 +1,8 @@
+.wd-bg-styles {
+    background-color: black;
+    padding-left: 16px;
+}
+.wd-outer-border {
+    border: 1px solid rgb(57, 51, 54);
+    padding-top: 12px;
+}

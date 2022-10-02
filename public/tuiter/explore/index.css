@@ -1,0 +1,61 @@
+.wd-searchbar-styles {
+    background-color: darkgray;
+    color: white;
+    border-radius: 20px;
+    width: 75%;
+    font-size: 18px;
+    margin-right: 0;
+    margin-left: 16px;
+}
+.wd-icon-style {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
+.wd-for-you-styles {
+    color: rgb(29, 161, 242);
+    border-bottom: 3px solid rgb(29, 161, 242);
+    margin-left: 16px;
+}
+.wd-link-general-styles {
+    padding: 16px;
+    font-size: 15px;
+    margin: 0;
+    width: fit-content;
+}
+.wd-outer-link-styles {
+    width: fit-content;
+    float: left;
+}
+.wd-basic-link-styles {
+    color: rgb(110, 118, 125);
+}
+.wd-outer-suggestion-styles {
+    border: 1px solid rgb(57, 51, 54);
+    display: inline-block;
+    width: 95%;
+    padding: 5px 5px 5px 16px;
+}
+.wd-small-gray-font {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-position-outer-elements {
+    position: relative;
+    height: fit-content;
+    overflow: hidden;
+}
+.wd-medium-white-font {
+    font-size: 15px;
+    color: white;
+}
+.wd-extra-top-margin {
+    margin-top: 8px;
+}
+.wd-news-image {
+    float: right;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin-right: 16px;
+}
