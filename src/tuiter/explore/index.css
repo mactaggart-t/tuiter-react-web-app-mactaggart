@@ -1,0 +1,44 @@
+.wd-searchbar-style {
+    padding-left: 0;
+}
+.form-rounded {
+    border-radius: 1rem !important;
+}
+.wd-small-gray-font {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+.wd-small-gray-font {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+}
+.wd-medium-font {
+    font-size: 15px;
+}
+.card-img-caption {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card-img-caption .card-img-top {
+    z-index: 0;
+}
+.card-img-caption .card-text {
+    text-align: left;
+    width: 100%;
+    margin: 57% 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 38px;
+    color: white;
+}
+.inner-addon {
+    position: relative;
+}
+.inner-search-icon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.inner-search-icon  { left:  0;}
+
+.left-addon input  { padding-left:  30px; }
