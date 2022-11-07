@@ -43,6 +43,8 @@
     ]
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.0"
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@reduxjs/toolkit": "^1.8.6",
+    "react-redux": "^8.0.4"
   }
 }

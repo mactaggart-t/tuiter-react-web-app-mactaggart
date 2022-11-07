@@ -1,23 +1,30 @@
 import React from "react";
 import { Twitter, HouseDoorFill, Hash, BellFill, EnvelopeFill,
     BookmarkFill, List, PersonFill, ThreeDots } from 'react-bootstrap-icons';
+import {useDispatch, useSelector} from "react-redux";
+import {setActiveTab}
+    from "../reducers/tuiter-reducer";
 
 const NavigationSidebar = (
-    {
-        active = 'explore'
-    }
 ) => {
+    const dispatch = useDispatch();
+    const activeTab = useSelector(state => state.tuiter);
+    const changeTabHandler = (newActiveTab) => {
+        dispatch(setActiveTab(newActiveTab))
+    }
     return (
     <>
         <div className="list-group">
             <div className="list-group-item">
                 <Twitter/>
             </div>
-            <div className="list-group-item">
+            <div className={"list-group-item " + (activeTab.toString() === "home" ? "active" : "")}
+                 onClick={() => changeTabHandler("home")}>
                 <HouseDoorFill/>
                 <div className="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Home</div>
             </div>
-            <div className="list-group-item active">
+            <div className={"list-group-item " + (activeTab.toString() === "explore" ? "active" : "")}
+            onClick={() => changeTabHandler("explore")}>
                 <Hash/>
                 <div className="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Explore
                 </div>
